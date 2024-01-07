@@ -1,0 +1,618 @@
+[
+  {
+    "column_names": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "Object id"
+      ],
+      [
+        0,
+        "neighbor object id"
+      ],
+      [
+        0,
+        "distance between the object and its neighbor"
+      ],
+      [
+        0,
+        "object type"
+      ],
+      [
+        0,
+        "neighbor type"
+      ],
+      [
+        0,
+        "mode of photometric observation"
+      ],
+      [
+        0,
+        "neighbor mode of photometric observation"
+      ],
+      [
+        1,
+        "object id"
+      ],
+      [
+        1,
+        "run number"
+      ],
+      [
+        1,
+        "rerun number"
+      ],
+      [
+        1,
+        "field number"
+      ],
+      [
+        1,
+        "mode of photometric observation"
+      ],
+      [
+        1,
+        "object type classification"
+      ],
+      [
+        1,
+        "clean photometry flag"
+      ],
+      [
+        1,
+        "photo object attribute flags"
+      ],
+      [
+        1,
+        "row center position"
+      ],
+      [
+        1,
+        "column center position"
+      ],
+      [
+        1,
+        "composite model magnitude u"
+      ],
+      [
+        1,
+        "composite model magnitude g"
+      ],
+      [
+        1,
+        "composite model magnitude r"
+      ],
+      [
+        1,
+        "right ascension"
+      ],
+      [
+        1,
+        "declination"
+      ],
+      [
+        1,
+        "galactic latitude"
+      ],
+      [
+        1,
+        "galactic longitude"
+      ],
+      [
+        1,
+        "extinction r"
+      ],
+      [
+        1,
+        "modified julien date"
+      ],
+      [
+        1,
+        "load version"
+      ],
+      [
+        1,
+        "magnitude u"
+      ],
+      [
+        1,
+        "magnitude g"
+      ],
+      [
+        1,
+        "magnitude r"
+      ],
+      [
+        1,
+        "magnitude i"
+      ],
+      [
+        1,
+        "magnitude z"
+      ],
+      [
+        2,
+        "spectroscopic object id"
+      ],
+      [
+        3,
+        "spectroscopic object id"
+      ],
+      [
+        4,
+        "spectroscopic object id"
+      ],
+      [
+        4,
+        "best object id"
+      ],
+      [
+        4,
+        "plate id"
+      ],
+      [
+        4,
+        "best spectrum"
+      ],
+      [
+        4,
+        "segue2 best spectrum"
+      ],
+      [
+        4,
+        "survey"
+      ],
+      [
+        4,
+        "Program name"
+      ],
+      [
+        4,
+        "modified julien date"
+      ],
+      [
+        4,
+        "plate number"
+      ],
+      [
+        4,
+        "fiber id"
+      ],
+      [
+        4,
+        "SDSS special program targets"
+      ],
+      [
+        4,
+        "segue2 primary objects"
+      ],
+      [
+        4,
+        "segue2 secondary objects"
+      ],
+      [
+        4,
+        "BOSS ancillary program targets"
+      ],
+      [
+        4,
+        "right ascension"
+      ],
+      [
+        4,
+        "declination"
+      ],
+      [
+        4,
+        "redshift"
+      ],
+      [
+        4,
+        "redshift error"
+      ],
+      [
+        4,
+        "redshift warning"
+      ],
+      [
+        4,
+        "Spectroscopic class"
+      ],
+      [
+        4,
+        "spectroscopic subclass"
+      ],
+      [
+        4,
+        "velocity dispersion"
+      ],
+      [
+        4,
+        "velocity dispersion error"
+      ],
+      [
+        4,
+        "load version"
+      ],
+      [
+        5,
+        "value"
+      ],
+      [
+        5,
+        "name"
+      ],
+      [
+        5,
+        "description"
+      ]
+    ],
+    "column_names_original": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "objid"
+      ],
+      [
+        0,
+        "neighborobjid"
+      ],
+      [
+        0,
+        "distance"
+      ],
+      [
+        0,
+        "type"
+      ],
+      [
+        0,
+        "neighbortype"
+      ],
+      [
+        0,
+        "mode"
+      ],
+      [
+        0,
+        "neighbormode"
+      ],
+      [
+        1,
+        "objid"
+      ],
+      [
+        1,
+        "run"
+      ],
+      [
+        1,
+        "rerun"
+      ],
+      [
+        1,
+        "field"
+      ],
+      [
+        1,
+        "mode"
+      ],
+      [
+        1,
+        "type"
+      ],
+      [
+        1,
+        "clean"
+      ],
+      [
+        1,
+        "flags"
+      ],
+      [
+        1,
+        "rowc"
+      ],
+      [
+        1,
+        "colc"
+      ],
+      [
+        1,
+        "cmodelmag_u"
+      ],
+      [
+        1,
+        "cmodelmag_g"
+      ],
+      [
+        1,
+        "cmodelmag_r"
+      ],
+      [
+        1,
+        "ra"
+      ],
+      [
+        1,
+        "dec"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        1,
+        "extinction_r"
+      ],
+      [
+        1,
+        "mjd"
+      ],
+      [
+        1,
+        "loadversion"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        1,
+        "g"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        2,
+        "specobjid"
+      ],
+      [
+        3,
+        "specobjid"
+      ],
+      [
+        4,
+        "specobjid"
+      ],
+      [
+        4,
+        "bestobjid"
+      ],
+      [
+        4,
+        "plateid"
+      ],
+      [
+        4,
+        "scienceprimary"
+      ],
+      [
+        4,
+        "segue2primary"
+      ],
+      [
+        4,
+        "survey"
+      ],
+      [
+        4,
+        "programname"
+      ],
+      [
+        4,
+        "mjd"
+      ],
+      [
+        4,
+        "plate"
+      ],
+      [
+        4,
+        "fiberid"
+      ],
+      [
+        4,
+        "special_target1"
+      ],
+      [
+        4,
+        "segue2_target1"
+      ],
+      [
+        4,
+        "segue2_target2"
+      ],
+      [
+        4,
+        "ancillary_target1"
+      ],
+      [
+        4,
+        "ra"
+      ],
+      [
+        4,
+        "dec"
+      ],
+      [
+        4,
+        "z"
+      ],
+      [
+        4,
+        "zerr"
+      ],
+      [
+        4,
+        "zwarning"
+      ],
+      [
+        4,
+        "class"
+      ],
+      [
+        4,
+        "subclass"
+      ],
+      [
+        4,
+        "veldisp"
+      ],
+      [
+        4,
+        "veldisperr"
+      ],
+      [
+        4,
+        "loadversion"
+      ],
+      [
+        5,
+        "value"
+      ],
+      [
+        5,
+        "name"
+      ],
+      [
+        5,
+        "description"
+      ]
+    ],
+    "column_types": [
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text"
+    ],
+    "db_id": "skyserver_dr16_2020_11_30",
+    "foreign_keys": [
+      [
+        1,
+        8
+      ],
+      [
+        33,
+        35
+      ],
+      [
+        34,
+        35
+      ],
+      [
+        36,
+        8
+      ],
+      [
+        59,
+        13
+      ],
+      [
+        59,
+        5
+      ]
+    ],
+    "primary_keys": [
+      8,
+      33,
+      34,
+      35,
+      59
+    ],
+    "table_names": [
+      "Nearest neighbour objects",
+      "Photometric objects",
+      "Emission line estimates",
+      "Stellar spectal line indices",
+      "Spectroscopic objects",
+      "photometrically observed"
+    ],
+    "table_names_original": [
+      "neighbors",
+      "photoobj",
+      "galspecline",
+      "spplines",
+      "specobj",
+      "photo_type"
+    ]
+  }
+]
