@@ -1,4 +1,4 @@
-Each folder [cordis](/cordis), [sdss](/sdss), [oncomx](/oncomx) holds the relevant files (i.e. seed data, synth data, and dev data) for each of the datasets. Additionally each file contains a file tables.json which contains a json structure of the database schema including table names, column names, column data types and primary/foreign key relationships. 
+Each folder [cordis](/cordis), [sdss](/sdss), [oncomx](/oncomx) holds the relevant files (i.e. seed data, synth data, and dev data) for each of the datasets. Additionally each file contains a tables.json file, which contains a json structure of the database schema including table names, column names, column data types and primary/foreign key relationships. 
 
 The following is an example of the file structure: 
 - dev.json --> the manually generated development dataset 
