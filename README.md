@@ -19,4 +19,8 @@ The PostgreSQL databases for each of the 3 databases used for this benchmark can
 [SDSS](https://drive.google.com/uc?export=download&id=1-11YVe1dsqh-x3RoVPQP8aKQouBESRm9)
 [OncoMX](https://drive.google.com/uc?export=download&id=1Y02tXXzaWaYwSKQtnWbYPe7dKk0T5Xmp)
 
+Before using `pg_restore` to import the data, please ensure that the extension `pg_trgm` is installed. 
+
+To install it, execute `CREATE EXTENSION pg_trgm;` in psql.
+
 PostgreSQL specification:  DBMS: PostgreSQL (ver. 9.5.20) Case sensitivity: plain=lower, delimited=exact Driver: PostgreSQL JDBC Driver (ver. 42.5.0, JDBC4.2) 
